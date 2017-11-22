@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
+.navbar-header {
+    
+    .navbar-brand {
+        color: #fff;
+
+        font: 600 18px/1 'Source Sans Pro', sans-serif;
+    }
+}
+
+.navbar-nav {
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+            background-color: #6DCDDA;
+        }
+    }
+
+    & > .active{
+        & > a, & > a:hover {
+            background-color: #7BE2F1;
+            color: #fff;
+        }
+    }
+}
+
+.dropdown {
+    width: 230px;
+    margin: 10px auto;
+
+    .dropdown-toggle {
+        width: 100%;
+        text-align: left;
+        position: relative;
+
+        .caret {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            margin-top: -2px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-header {
+
+        .navbar-brand {
+            display: block;
+            float: none;
+
+            margin: 15px auto;
+            text-align: center;
+        }
+    }
+}
+
+.navbar-buttons {
+    padding: 10px 15px;
+    text-align: center;
+
+    .btn {
+        margin: 0 5px;
+
+        &.btn-primary {
+            background-color: rgb(33,166,187);
+            border: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-buttons {
+        float: right;
+    }
+}
+
+.modal h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #777;
+    font-size: 16px;
+}
+
+.modal-body{
+    font-size: 13px;
+
+}
+
+.trquantity{
+    width:33%；
+}
+
+.quantity{
+    width:50%;
+}
+
+.spinner input {
+    text-align: center;
+  }
+  
+  .input-group-btn-vertical {
+    position: relative;
+    white-space: nowrap;
+    width: 2%;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
+  .input-group-btn-vertical > .btn {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    margin-left: -1px;
+    position: relative;
+    border-radius: 0;
+  }
+  
+  .input-group-btn-vertical > .btn:first-child {
+    border-top-right-radius: 4px;
+  }
+  
+  .input-group-btn-vertical > .btn:last-child {
+    margin-top: -2px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  .input-group-btn-vertical i {
+    position: absolute;
+    top: 0;
+    left: 4px;
+  }
